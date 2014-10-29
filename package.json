@@ -9,7 +9,6 @@
   "author": "itzmjauz",
   "license": "ISC",
   "dependencies": {
-    "prompt": "^0.2.14",
     "socket.io-client": "^1.2.0"
   }
 }
