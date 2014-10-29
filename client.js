@@ -3,7 +3,6 @@ net   = require('net')
 HOST  = 'wolkje-69.cs.vu.nl'
 PORT  = 5378
 
-
 function ask(){
   rl = readl.createInterface({
     input : process.stdin,
