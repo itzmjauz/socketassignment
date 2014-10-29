@@ -1,0 +1,11 @@
+{
+  "name": "socketassignment",
+  "version": "1.0.0",
+  "description": "client to communicate with vu's testserver",
+  "main": "client.js",
+  "scripts": {
+    "test": "node client.js"
+  },
+  "author": "itzmjauz",
+  "license": "ISC"
+}
