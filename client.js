@@ -42,5 +42,4 @@ client.on('data', function(data) {
 
 client.on('close', function() {
   console.log('Connection closed')
-
 })
