@@ -1,7 +1,7 @@
-readl = require('readline')
-net   = require('net')
-HOST  = 'wolkje-69.cs.vu.nl'
-PORT  = 5378
+var readl = require('readline')
+  , net   = require('net')
+  , HOST  = 'wolkje-69.cs.vu.nl'
+  , PORT  = 5378
 
 function ask(){
   rl = readl.createInterface({
