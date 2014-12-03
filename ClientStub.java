@@ -90,8 +90,8 @@ throws IOException, UnknownHostException {
                 out.println("usage: java ClientStub <server> <port>");
                 return;
         }
-        argv[0] = "wolkje-69.cs.vu.nl";
-        argv[1] = "5378";
+        //argv[0] = "wolkje-69.cs.vu.nl";
+        //argv[1] = "5378";
         Socket socket        = new Socket(argv[0], Integer.parseInt(argv[1]));
         BufferedReader srvIn = new BufferedReader(new InputStreamReader(socket.getInputStream()));
         PrintWriter srvOut   = new PrintWriter(socket.getOutputStream(),true);
