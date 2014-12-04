@@ -1,13 +1,13 @@
 import java.io.*;
 import java.net.*;
 
-class ClientStub
+class Client
 {
 BufferedReader in;
 PrintStream out;
 boolean exit;
 
-ClientStub() {
+Client() {
         in   = new BufferedReader(new InputStreamReader(System.in));
         out  = new PrintStream(System.out);
         exit = false;
