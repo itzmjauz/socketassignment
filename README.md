@@ -18,7 +18,8 @@ npm start
 
 the java version
 ---------------------------
-sorry they made me do this
+sorry, they made me do this.
+I hate java. 
 
 run the java one, by first compiling it with for example javac:
 ```
